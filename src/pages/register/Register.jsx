@@ -26,7 +26,7 @@ export default function Register() {
         password: password.current.value,
       };
       try {
-        await axios.post("https://churchbackend.onrender.com/auth/register", user);
+        await axios.post("/auth/register", user);
         alert('succss')
         history.push("/login");
       } catch (err) {
