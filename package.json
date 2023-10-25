@@ -42,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://church-app-5ktb.onrender.com/api"
+  "proxy": "https://churchbackend.onrender.com/api"
 }
