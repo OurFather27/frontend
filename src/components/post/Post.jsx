@@ -31,7 +31,7 @@ const description = showFullDescription
 
   useEffect(() => {
     const fetchUser = async () => {
-      const res = await axios.get(`/users?userId=${post.userId}`);
+      const res = await axios.get(`https://churchbackend.onrender.com/api/users?userId=${post.userId}`);
       setUser(res.data);
     };
     fetchUser();
